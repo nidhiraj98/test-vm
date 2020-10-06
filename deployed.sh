@@ -1,3 +1,2 @@
-#!/bin/bash
-export PATH=$PATH:/usr/local/bin
+#!/bin/sh
 echo "Hello World"
