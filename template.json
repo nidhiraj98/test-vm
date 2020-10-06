@@ -227,11 +227,11 @@
           "autoUpgradeMinorVersion": true,
           "settings": {  
              "fileUris": [
-              "https://github.com/nidhiraj98/test-vm/blob/master/deployed.sh"
+              "https://raw.githubusercontent.com/nidhiraj98/test-vm/master/install.sh"
             ]    
           },
           "protectedSettings": {
-            "commandToExecute": "bash -x deployed.sh"
+            "commandToExecute": "bash -x ./install.sh"
           }
         }
       }
