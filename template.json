@@ -225,13 +225,13 @@
           "type": "CustomScript",
           "typeHandlerVersion": "2.1",
           "autoUpgradeMinorVersion": true,
-          "settings": {
-            "fileUris": [
-              "['https://github.com/nidhiraj98/test-vm/deployed.sh']"
-            ]        
+          "settings": {  
+             "fileUris": [
+              "https://github.com/nidhiraj98/test-vm/blob/master/hello-world.py"
+            ]    
           },
           "protectedSettings": {
-             "commandToExecute": "./deployed.sh"
+            "commandToExecute": "['python hello-world.py']"
           }
         }
       }
