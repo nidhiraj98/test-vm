@@ -227,11 +227,11 @@
           "autoUpgradeMinorVersion": true,
           "settings": {  
              "fileUris": [
-              "https://github.com/nidhiraj98/test-vm/blob/master/hello-world.py"
+              "https://github.com/nidhiraj98/test-vm/blob/master/deployed.sh"
             ]    
           },
           "protectedSettings": {
-            "commandToExecute": "['python hello-world.py']"
+            "commandToExecute": "chmod a+x deployed.sh; bash -x deployed.sh"
           }
         }
       }
