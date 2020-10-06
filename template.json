@@ -231,7 +231,7 @@
             ]    
           },
           "protectedSettings": {
-            "commandToExecute": "chmod a+x deployed.sh; bash -x deployed.sh"
+            "commandToExecute": "bash -x deployed.sh"
           }
         }
       }
